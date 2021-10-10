@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2021-10-10T13:10:03.118Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" version="14.7.3" etag="oQvBEF33FqxzfDSHLZYR" type="github"><diagram id="U6nHyApiws5BzPp5TjsP">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-10T13:35:07.901Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="3Sn-prcB87PcCtG5zzFg" version="14.7.3" type="github">
+  <diagram id="U6nHyApiws5BzPp5TjsP" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4FXXElWIUVSMOmP58wuP-1" value="Consumer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4FXXElWIUVSMOmP58wuP-2" value="Producer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4FXXElWIUVSMOmP58wuP-4" value="Broker" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="364" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4FXXElWIUVSMOmP58wuP-5" value="Broker" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="364" y="100" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4FXXElWIUVSMOmP58wuP-6" value="Broker" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="364" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4FXXElWIUVSMOmP58wuP-7" value="Broker" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="364" y="580" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4FXXElWIUVSMOmP58wuP-8" value="topic1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="374" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4FXXElWIUVSMOmP58wuP-9" value="topic2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="374" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4FXXElWIUVSMOmP58wuP-10" value="topic3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="434" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4FXXElWIUVSMOmP58wuP-11" value="topic1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="364" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4FXXElWIUVSMOmP58wuP-12" value="topic1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="364" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4FXXElWIUVSMOmP58wuP-13" value="topic1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="364" y="580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4FXXElWIUVSMOmP58wuP-14" value="Topic：&lt;span style=&quot;color: rgb(36, 41, 47); font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;表示一类消息的集合，每个主题包含若干条消息，&lt;br style=&quot;font-size: 12px;&quot;&gt;每条消息只能属于一个主题，是RocketMQ进行消息订阅的基本单位。&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];rounded=0;fontSize=12;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="610" y="30" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4FXXElWIUVSMOmP58wuP-17" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 10px;&quot;&gt;Message：消息系统所传输信息的物理载体，生产和消费数据的最小单位，&lt;br&gt;每条消息必须属于一个主题。RocketMQ中每个消息拥有唯一的Message ID，&lt;br&gt;且可以携带具有业务标识的Key。系统提供了通过Message ID和Key查询消息的功能。&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=14;labelBorderColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="620" y="95" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4FXXElWIUVSMOmP58wuP-18" value="&lt;span style=&quot;font-size: 10px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Tag：标签为消息设置的标志，&lt;br&gt;用于同一主题下区分不同类型的消息。来自同一业务单元的消息，&lt;br&gt;可以根据不同业务目的在同一主题下设置不同标签。&lt;br&gt;标签能够有效地保持代码的清晰度和连贯性，&lt;br&gt;并优化RocketMQ提供的查询系统。&lt;br&gt;消费者可以根据Tag实现对不同子主题的不同消费逻辑，实现更好的扩展性。&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=10;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="610" y="310" width="420" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
